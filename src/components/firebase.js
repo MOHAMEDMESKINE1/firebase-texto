@@ -15,15 +15,26 @@ import { getAuth } from "firebase/auth";
 //   };
 // Initialize Firebase
 
+// const firebaseConfig = {
+
+//     apiKey: "AIzaSyDuzIqE7Ag43kDLUYfR03WxzSAQwBxTxYM",
+//     authDomain: "ftblr-app-8cca6.firebaseapp.com",
+//     projectId: "ftblr-app-8cca6",
+//     storageBucket: "ftblr-app-8cca6.firebasestorage.app",
+//     messagingSenderId: "688576131973",
+//     appId: "1:688576131973:web:16088ff6e173726a5bcaec",
+//     measurementId: "G-NJTNMMLLG1"
+// };
 const firebaseConfig = {
-    apiKey: "AIzaSyDuzIqE7Ag43kDLUYfR03WxzSAQwBxTxYM",
-    authDomain: "ftblr-app-8cca6.firebaseapp.com",
-    projectId: "ftblr-app-8cca6",
-    storageBucket: "ftblr-app-8cca6.firebasestorage.app",
-    messagingSenderId: "688576131973",
-    appId: "1:688576131973:web:16088ff6e173726a5bcaec",
-    measurementId: "G-NJTNMMLLG1"
-};
+    apiKey: "AIzaSyDJZLhoZNbWiPl64kfLH38AIeTr5_Pnqss",
+    authDomain: "webflixo-d558e.firebaseapp.com",
+    databaseURL: "https://webflixo-d558e.firebaseio.com/",
+    projectId: "webflixo-d558e",
+    storageBucket: "webflixo-d558e.firebasestorage.app",
+    messagingSenderId: "532885923964",
+    appId: "1:532885923964:web:ef4a89167267e5b7b7c1f9",
+    measurementId: "G-6SWQTEN6M9"
+  };
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app)
 
